@@ -16,7 +16,7 @@ def roll_rng():
     percentage = round(100 * (1 / luck), 2)
     if best_result is None or result > best_result:
         best_result = result
-    label_result.config(text=f"You rolled: 1 in a {result:,}\nBest: 1 in a {best_result:,}\n")
+    label_result.config(text=f"you rolled: 1 in a {result:,}\nbest roll: 1 in a {best_result:,}\n")
 
 
 # cool graph ez
