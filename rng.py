@@ -1,8 +1,10 @@
+# REVISED code FINALLY ez
+
 import random
 import tkinter as tk
 import math
 
-luck = random.randint(0, 137) # higher the number, lower the luck
+luck = random.randint(0, 137) # higher the number, lower the luck (those who know 137 ☠☠☠)
 
 best_result = None
 
